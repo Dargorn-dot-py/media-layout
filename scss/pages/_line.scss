@@ -1,0 +1,123 @@
+.timeline__columns {
+   display: flex;
+}
+.tl__left-col {
+   flex: 1 1 18%;
+}
+.tl__center-col {
+   flex: 1 1 55%;
+}
+.add__item,
+.col__item {
+   background-color: $white;
+   border-radius: 12px;
+   box-shadow: 0 10px 10px $shadow-1;
+   padding: 18px 27px;
+   margin: 0 0 18px 0;
+}
+.col__item {
+   min-height: 97px;
+}
+.col__item-pic-box {
+   position: relative;
+}
+.post__avatar {
+   position: absolute;
+   top: 0;
+   left: 0px;
+   width: 60px;
+   height: 60px;
+   background-color: #eee;
+   border-radius: 50%;
+   overflow: hidden;
+}
+.post__avatar img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.col__item__up {
+   padding: 10px 0 0 88px;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+.col__item__label {
+   font-size: 18px;
+   font-weight: 600;
+   color: $pink;
+}
+.col__item__date {
+}
+.col__item__second-line {
+   padding: 27px 0 0 0;
+   p {
+      cursor: default;
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      line-height: 1.5;
+   }
+}
+.col__item__third-line {
+   padding: 17px 0;
+}
+.col__item__fourth-line {
+   font-size: 16px;
+   display: flex;
+   gap: 14px;
+   .fourth-line__plus, .fourth-line__comms {
+      background-color: $shadow-1;
+      padding: 10px 14px;
+      border-radius: 12px;
+      cursor: pointer;
+   }
+   .fourth-line__plus,
+   .fourth-line__comms {
+      color: #888;
+   }
+}
+.fifth-line__box {
+   margin: 14px 0 0 0;
+}
+.box__comment {
+   padding: 4px 0 0px 17px;
+}
+.comment__avatar-box {
+   position: relative;
+}
+.comment_avatar {
+   position: absolute;
+   top: 0;
+   left: 0px;
+   width: 45px;
+   height: 45px;
+   background-color: #eee;
+   border-radius: 50%;
+   overflow: hidden;
+}
+.comment_avatar  img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.comment__body {
+   padding: 0 0 0 60px;
+   font-size: 16px;
+   cursor: default;
+   letter-spacing: 0.5px;
+   line-height: 1.2;
+}
+.comment__login {
+   padding: 4px 0 0 0;
+   color: $pink;
+}
+.comment__text {
+   padding: 6px 0 6px 0;
+}
+.comment__date {
+   color: #777;
+   font-size: 14px;
+}
+.tl__right-col {
+   flex: 1 1 27%;
+}

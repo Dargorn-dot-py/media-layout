@@ -1,0 +1,14 @@
+.header__logo {
+   span {
+      color: $pink;
+      background: linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255,126,135,1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+   }
+}
+.filter__item {
+   transition: 0.3s ease;
+   &:hover {
+      color: $pink;
+   }
+}

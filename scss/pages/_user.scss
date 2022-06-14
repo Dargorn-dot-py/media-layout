@@ -1,0 +1,41 @@
+.content__log-block {
+}
+.log__body {
+}
+.avatar__body {
+   position: relative;
+   padding: 0 0 114px 0;
+}
+.avatar__circle {
+   position: absolute;
+   top: 0;
+   left: -50px;
+   width: 100px;
+   height: 100px;
+   background-color: #eee;
+   border-radius: 50%;
+   overflow: hidden;
+}
+.avatar__circle img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.block__info, .block__list {
+   display: flex;
+   flex-direction: column;
+   gap: 14px;
+}
+.block__login {
+   text-align: center;
+   font-size: 24px;
+}
+.block__regtime {
+   font-size: 16px;
+}
+.block__menu {
+   margin: 14px 0 0 0;
+}
+.list__item {
+   min-width: 170px;
+}

@@ -1,0 +1,56 @@
+.footer {
+   background-color: $dark;
+   flex: 0 0 auto;
+}
+.f-up {
+   min-height: 130px;
+}
+.social {
+   text-align: right;
+   min-height: 130px;
+   padding: 20px 0px 0px 20px;
+}
+.social a {
+   font-size: 22px;
+   color: $white;
+   font-weight: 600;
+   cursor: default;
+}
+.soc_pics {
+   margin-top: 15px;
+   height: 60px;
+   padding: 10px;
+}
+.sp_vk {
+   width: 50px;
+   float: right;
+   margin-left: 25px;
+   transition: 0.3s ease;
+}
+.sp_vk:hover {
+   transform: translateY(-8px);
+}
+.sp_vk span {
+   font-size: 14px;
+}
+.sp_vk a {
+   color: #999;
+   cursor: pointer;
+}
+.sp_vk i {
+   font-size: 40px;
+   color: $pink;
+}
+.f-down {
+   text-align: center;
+   color: $white;
+   font-size: 16px;
+   padding: 10px 15px 15px 15px;
+   cursor: default;
+}
+.f-down-txt {
+   margin: 0 15px 0 15px;
+}
+.f-down-txt2 {
+   color: $pink;
+}

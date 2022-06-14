@@ -1,0 +1,74 @@
+/* -------------- */
+
+.rate-flag {
+   position: absolute;
+   top: 10px;
+   left: -5px;
+}
+.rate-flag::before {
+   content: '';
+   display: block;
+   font-size: 0;
+   line-height: 0;
+   position: absolute;
+   z-index: 3;
+   bottom: -7px;
+   left: 1px;
+   // border-top: 7px solid $green;
+   border-top: 7px solid $yell;
+   /* border-top: 7px solid $red; */
+   border-left: 4px solid transparent;
+   width: 0;
+   height: 0;
+}
+.flag-inner {
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 20px;
+   color: $black;
+   position: relative;
+   overflow: hidden;
+   padding: 4px 16px 4px 6px;
+   z-index: 6;
+}
+.flag-inner::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 1px;
+   width: 100%;
+   height: 0;
+   z-index: -1;
+   /* border-top: 15px solid $green; */
+   border-top: 15px solid $yell;
+   /* border-top: 15px solid $red; */
+   box-sizing: border-box;
+   border-right: 6px solid transparent;
+}
+.flag-inner::after {
+   content: '';
+   position: absolute;
+   top: 50%;
+   left: 1px;
+   width: 100%;
+   height: 0;
+   z-index: -1;
+   /* border-bottom: 15px solid $green; */
+   border-bottom: 15px solid $yell;
+   /* border-bottom: 15px solid $red; */
+   box-sizing: border-box;
+   border-right: 6px solid transparent;
+}
+.icon {
+   vertical-align: -0.125em;
+   display: inline-block;
+   width: 1rem;
+   height: 1rem;
+   position: relative;
+   fill: currentColor;
+   margin-right: 0.6rem;
+}

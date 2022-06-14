@@ -1,0 +1,181 @@
+.header {
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 50;
+   background-color: $dark;
+}
+.header__body {
+   border-bottom: 4px solid $pink;
+   padding: 0 25px;
+}
+.header__container {
+   display: flex;
+   min-height: 50px;
+   align-items: center;
+}
+.header__logo {
+   position: relative;
+   z-index: 5;
+   font-size: 26px;
+   // color: #fff;
+   font-weight: 800;
+   color: $pink;
+}
+.header__menu {
+   flex: 1 1 auto;
+}
+.menu {
+   display: flex;
+   /* justify-content: flex-end; */
+}
+.header__button {
+   // flex: 0 0 300px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+.login {
+   padding: 6px 10px;
+   color: $white;
+   transition: 0.3s;
+}
+.login:hover {
+   color: $pink;
+}
+/* )))))))))))))))))))))))))))) */
+.navigation__block {
+   margin-left: 25px;
+   
+   display: flex;
+   flex: 1 1 auto;
+}
+.nav__general {
+   position: relative;
+   padding: 12px;
+   transition: 0.3s;
+}
+.nav__general .gen-btn {
+   background-color: $dark;
+   font-size: 18px;
+   color: $wf7;
+   transition: 0.3s;
+}
+.nav__general .fa-home {
+   padding-right: 12px;
+}
+.nav__general .fa-home, .fa-user {
+   color: $wf7;
+   transition: 0.3s;
+}
+.user {
+   padding: 3px 7px;
+   border-radius: 50%;
+   font-size: 18px;
+   transition: 0.3s;
+   background-color: $shadow-2;
+}
+.fa-sort-desc {
+   color: $wf7;
+   padding-left: 25px;
+   position: relative;
+   top: -4px;
+   right: 0px;
+   transition: 0.3s;
+}
+.nav__general button:active,
+.nav__general button:focus,
+.nav__general button:hover {
+   background-color: $dark;
+   color: $pink;
+}
+.nav__general button:active .fa-home,
+.nav__general button:focus .fa-home,
+.nav__general button:hover .fa-home {
+   color: $pink;
+}.nav__general button:active .fa-user,
+.nav__general button:focus .fa-user,
+.nav__general button:hover .fa-user {
+   color: $pink;
+}
+.nav__general button:active .fa-sort-desc,
+.nav__general button:focus .fa-sort-desc,
+.nav__general button:hover .fa-sort-desc {
+   color: $pink;
+}
+.nav__general button:active,
+.nav__general button:focus {
+   cursor: default;
+}
+.sub-menu, .sm-rv {
+   position: absolute;
+   top: 100%;
+   z-index: 10;
+   transform-origin: 0 0;
+   transform: scaleY(0);
+   transition: 0.3s;
+   background-color: $gray;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+   border-top-right-radius: 0px;
+   border-top-left-radius: 0px;
+}
+.sub-menu {
+   left: 0;
+   width: 120%;
+}
+.sm-rv {
+   right: 0px;
+   width: 360%;
+}
+.show {
+   transform: scaleY(1);
+}
+.sub-item {
+   padding: 10px 10px 10px 10px;
+}
+.sub-item:hover {
+   background-color: $gray-h;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+}
+.sub-item:hover a {
+   color: $pink;
+}
+.sub-item:last-child {
+   padding-bottom: 15px;
+}
+.sub-link {
+   display: block;
+   color: $white;
+   width: 100%;
+   font-size: 16px;
+   text-transform: capitalize;
+   transition: 0.3s;
+}
+.first-span {
+   color: $white;
+   padding: 3px;
+   background-color: $pink;
+   border-radius: 8px;
+   margin-right: 6px;
+}
+.sub-item:hover .first-span {
+   color: $white;
+}
+.second-span, .second-span-2 {
+   color: $white;
+   background-color: $pink;
+   border-radius: 8px;
+   margin-right: 6px;
+}
+.second-span {
+   padding: 3px 18px;
+}
+.second-span-2 {
+   padding: 3px 10px;
+}
+.sp2 {
+   padding: 3px 12px;
+}

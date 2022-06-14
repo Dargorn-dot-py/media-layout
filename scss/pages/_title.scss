@@ -1,0 +1,90 @@
+.content__body {
+   margin: 14px 0 0 0;
+   font-size: 16px;
+   padding: 14px;
+   
+   background-color: $white;
+   border-radius: 12px;
+   box-shadow: 0 10px 10px $shadow-1;
+}
+.inform__body {
+}
+.inform__columns {
+   display: flex;
+}
+.inform__left {
+   flex: 1 1 23%;
+}
+.title-pic {
+   position: relative;
+   width: 260px;
+   height: 380px;
+   background-color: #eee;
+}
+.inform__right {
+   flex: 1 1 77%;
+}
+.inform__item {
+}
+.inform__star, .inform__title, .inform__second-title, .inform__list-item {
+   margin: 0 0 12px 0;
+}
+.inform__star {
+   display: flex;
+   align-items:baseline;
+   font-size: 18px;
+   i {
+      color: $yell;
+   }
+}
+.inform__title, .inform__label {
+   font-size: 20px;
+   font-weight: 600;
+}
+.inform__second-title {
+   color:#666;
+}
+.inform__list__body {
+   display: flex;
+   padding: 12px 0 0 0;
+}
+.ul-left {
+   flex: 1 1 20%;
+   color: #666;
+}
+.ul-right {
+   flex: 1 1 80%;
+}
+.inform__list {
+}
+.inform__list-item {
+}
+.tl-clear {
+   padding: 0 0 0 0;
+}
+.inform__desk {
+   padding: 14px 0px;
+   cursor: default;
+   font-size: 16px;
+   letter-spacing: 0.5px;
+   line-height: 1.5;
+}
+.inform__label {
+   padding: 0 0 14px 0;
+}
+.inform__frames {
+}
+.inform__related {
+}
+.view__body {
+   display: flex;
+   align-items: center;
+   span {
+      margin-left: 14px;
+      color: #999;
+   }
+}
+.review__body {
+}
+.comments__body {
+}

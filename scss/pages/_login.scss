@@ -1,0 +1,32 @@
+.log__body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.log__body p {
+   font-size: 18px;
+   margin: 25px 0 0 0;
+}
+.input {
+   margin: 0 0 25px 0;
+   padding: 10px;
+   border-radius: 8px;
+   min-width: 250px;
+   font-size: 16px;
+   box-shadow: 0 10px 10px $shadow-1;
+}
+.mt-1 {
+   margin-top: 25px;
+}
+.log__forget {
+   margin: 25px 0 0 0;
+   color: $pink;
+   font-size: 16px;
+}
+.log__forget:hover {
+   color: $pink-h;
+   text-decoration: underline;
+}
+.log__reg {
+   margin: 25px 0;
+}

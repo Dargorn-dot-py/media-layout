@@ -1,0 +1,38 @@
+.filter {
+   display: flex;
+   .filter__item {
+      padding: 8px 0 25px 20px;
+      // color: #000;
+   }
+}
+.pink {
+   color: $pink;
+}
+.pink:hover {
+   color: $pink-h;
+}
+.hide {
+   opacity: 1;
+   animation-name: a1;
+   animation-duration: 0.5s;
+   animation-fill-mode: forwards;
+}
+@keyframes a1 {
+   to {
+      opacity: 0;
+      min-height: 0;
+      min-width: 0;
+      padding: 0;
+      margin: 0;
+      bottom: 0;
+   }
+   0% {
+      position: relative;
+   }
+   99% {
+      position: relative;
+   }
+   100% {
+      position: absolute;
+   }
+}

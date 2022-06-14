@@ -1,0 +1,41 @@
+.update__label {
+   padding: 0px 25px 8px 42px;
+}
+.grad-item {
+   background: linear-gradient(180deg, rgba(247, 247, 247, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+.white-bg {
+   background-color: #fff;
+}
+.item__filter {
+   display: flex;
+}
+.filter-right {
+   padding: 20px 0 0 15px;
+}
+.item-left,
+.item-right {
+   padding: 15px;
+}
+.fa-sliders-h {
+   position: relative;
+   top: 2px;
+   left: 0;
+}
+.filter__item {
+   display: flex;
+   align-items: center;
+   font-size: 18px;
+   padding: 8px 0;
+}
+.filter__label {}
+.non-dec {
+   cursor: default;
+}
+.filter__select {
+   position: relative;
+   top: -1px;
+   left: 0px;
+   font-size: 16px;
+   background-color: transparent;
+}

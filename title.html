@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>ContentList</title>
+   <meta charset="UTF-8">
+   <meta hhtp-equiv="Content-type" content="text/html;charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+   <script src="https://kit.fontawesome.com/c9dfd375dd.js" crossorigin="anonymous"></script>
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/processing.css">
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__body">
+            <div class="header__container">
+               <a href="index.html" class="header__logo"><span>Content</span>List</a>
+               <div class="header__menu menu">
+                  <div class="navigation__block">
+                     <div id="menucontainer" class="nav__general">
+                        <button class="gen-btn"><i class="fa fa-home"></i>Главная<i class="fa fa-sort-desc"></i></button>
+                        <ul id="dropdown" class="sub-menu">
+                           <li class="sub-item"><a href="anime.html" class="sub-link"><span class="first-span">アニメ</span> аниме</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span"><i class="fas fa-images"></i></span> манга</a></li>
+                           <!-- <li class="sub-item"><a href="" class="sub-link"><span class="second-span"><i class="fas fa-newspaper"></i></span> ранобе</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span"><i class="fas fa-pen-alt"></i></span> фанфики</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span"><i class="fa fa-book"></i></span> книги</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span"><i class="fa fa-film"></i></span> мультфильмы</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span"><i class="fa fa-film"></i></span> фильмы</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span"><i class="fa fa-film"></i></span> сериалы</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span"><i class="fab fa-youtube"></i></span> you tube</a></li> -->
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="header__button">
+                  <!-- <a href="login.html" class="login"><i class="fa fa-share-square-o"></i> <span>Войти</span></a> -->
+                  <!-- <a href="user.html" class="login"><i class="fas fa-user"></i> <span>Кабинет</span></a> -->
+                  <div class="navigation__block">
+                     <div id="menucontainer-2" class="nav__general">
+                        <button class="user"><i class="fas fa-user"></i></button>
+                        <ul id="dropdown-2" class="sm-rv">
+                           <li class="sub-item"><a href="user.html" class="sub-link"><span class="second-span-2"><i class="fas fa-user-edit"></i></span> профиль</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span-2 sp2"><i class="fas fa-list"></i></span> список</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span-2"><i class="fas fa-user-cog"></i></span> настройки</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main class="main">
+         <div class="content">
+            <div class="content__container">
+               <div class="content__topline">
+                  <a href="" class="content__block">
+                     <span>Тайтл</span><i class="fas fa-angle-double-right"></i>
+                     <div class="circle"></div>
+                  </a>
+               </div>
+               <div class="content__body">
+                  <div class="inform__body">
+                     <div class="inform__columns">
+                        <div class="inform__left">
+                           <div class="title-pic">
+                              <div class="title-pic-img">
+                                 <img  width = 260; height = 380; src="img/1.jpg" alt="">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="inform__right">
+                           <div class="inform__item">
+                              <div class="inform__star">
+                                 <i class="fa fa-star icon"></i>
+                                 <div class="star__text">9/10</div>
+                              </div>
+                           </div>
+                           <div class="inform__item">
+                              <div class="inform__title">Заголовок на русском</div>
+                              <div class="inform__second-title">Название на языке оригинала</div>
+                           </div>
+                           <div class="inform__item">
+                              <div class="inform__list__body">
+                                 <ul class="inform__list ul-left">
+                                    <li class="inform__list-item">Тип</li>
+                                    <li class="inform__list-item">Эпизоды</li>
+                                    <li class="inform__list-item">Статус</li>
+                                    <li class="inform__list-item">Жанр</li>
+                                    <li class="inform__list-item">Первоисточник</li>
+                                    <li class="inform__list-item">Сезон</li>
+                                    <li class="inform__list-item">Выпуск</li>
+                                    <li class="inform__list-item">Длительность</li>
+                                 </ul>
+                                 <ul class="inform__list ul-right">
+                                    <li class="inform__list-item">Сериал</li>
+                                    <li class="inform__list-item">12 / 12</li>
+                                    <li class="inform__list-item">Вышел</li>
+                                    <ul class="inform__list-item tag__list tl-clear">
+                                       <li class="tag">Tag 1</li>
+                                       <li class="tag">Tag 2</li>
+                                       <li class="tag">Tag 3</li>
+                                    </ul>
+                                    <li class="inform__list-item">Манга</li>
+                                    <li class="inform__list-item">Зима 2022</li>
+                                    <li class="inform__list-item">с 1 января 2022</li>
+                                    <li class="inform__list-item">24 мин. - серия</li>
+                                 </ul>
+                              </div>
+                              
+                           </div>
+                        </div>
+                     </div>
+                     <div class="inform__desk">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt deleniti nesciunt maiores! Doloremque, consequuntur exercitationem debitis dolorem necessitatibus minus veniam consequatur autem, ea qui excepturi velit odio soluta a dolor.
+                     </div>
+                     <div class="inform__frames">
+                        <div class="inform__label">Кадры</div>
+                     </div>
+                     <div class="inform__related">
+                        <div class="inform__label">Связанное</div>
+                     </div>
+                  </div>
+                  <div class="view__body">
+                     <div class="inform__label">View</div> <span>none</span>
+                  </div>
+                  <div class="review__body">
+                     <div class="inform__label">Review</div>
+                  </div>
+                  <div class="comments__body">
+                     <div class="inform__label">Comments</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a href="#" class="arrowUp">
+		      <i class="fas fa-arrow-up"></i>
+	      </a>
+      </main>
+      <footer class="footer">
+         <div class="footer__container">
+             <div class="f-up">
+                 <div class="social">
+                     <a>Социальные сети:</a>
+                     <div class="soc_pics">
+                         <div class="sp_vk tooltip">
+                             <a target="_blank" href="https://vk.com/dargorn">
+                                 <i class="fa fa-vk"></i>
+                                 <span>Вконтакте</span>
+                             </a>
+                         </div>
+                         <div class="sp_vk tooltip">
+                             <a target="_blank" href="https://t.me/Mil1shka">
+                                 <i class="fa fa-telegram"></i>
+                                 <span>Телеграм</span>
+                             </a>
+                         </div>
+                         <div class="sp_vk tooltip">
+                             <a target="_blank" href="https://discordapp.com/users/659844555272749063/">
+                                 <i class="fab fa-discord"></i>
+                                 <span>Дискорд</span>
+                             </a>
+                         </div>
+                         <div class="sp_vk tooltip">
+                             <a target="_blank" href="https://www.youtube.com/channel/UC-oicmaEPMXygx8GCIb5gfA">
+                                 <i class="fa fa-youtube"></i>
+                                 <span>YouTube</span>
+                             </a>
+                         </div>
+                         <div class="sp_vk tooltip">
+                             <a target="_blank" href="">
+                                 <i class="fa fa-envelope"></i>
+                                 <span>Почта</span>
+                             </a>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="f-down">© 2022 <span class="f-down-txt">|</span> Designed by <span class="f-down-txt2">Dargorn</span></div>
+         </div>
+     </footer>
+   </div>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="js/aos.js"></script>
+   <script src="js/dropdown.js"></script>
+   <script src="js/filter.js"></script>
+</body>
+</html>

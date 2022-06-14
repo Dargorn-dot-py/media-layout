@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>ContentList</title>
+   <meta charset="UTF-8">
+   <meta hhtp-equiv="Content-type" content="text/html;charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
+   <script src="https://kit.fontawesome.com/c9dfd375dd.js" crossorigin="anonymous"></script>
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/processing.css">
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__body">
+            <div class="header__container">
+               <a href="index.html" class="header__logo"><span>Content</span>List</a>
+               <div class="header__menu menu">
+                  <div class="navigation__block">
+                     <div id="menucontainer" class="nav__general">
+                        <button class="gen-btn"><i class="fa fa-home"></i>Главная<i class="fa fa-sort-desc"></i></button>
+                        <ul id="dropdown" class="sub-menu">
+                           <li class="sub-item"><a href="anime.html" class="sub-link"><span class="first-span">アニメ</span> аниме</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span"><i class="fas fa-images"></i></span> манга</a></li>
+                           <!-- <li class="sub-item"><a href="" class="sub-link"><span class="second-span"><i class="fas fa-newspaper"></i></span> ранобе</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span"><i class="fas fa-pen-alt"></i></span> фанфики</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span"><i class="fa fa-book"></i></span> книги</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span"><i class="fa fa-film"></i></span> мультфильмы</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span"><i class="fa fa-film"></i></span> фильмы</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span"><i class="fa fa-film"></i></span> сериалы</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span"><i class="fab fa-youtube"></i></span> you tube</a></li> -->
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="header__button">
+                  <a href="login.html" class="login"><i class="fa fa-share-square-o"></i> <span>Войти</span></a>
+                  <!-- <a href="user.html" class="login"><i class="fas fa-user"></i> <span>Кабинет</span></a> -->
+                  <div class="navigation__block">
+                     <div id="menucontainer-2" class="nav__general">
+                        <button class="user"><i class="fas fa-user"></i></button>
+                        <ul id="dropdown-2" class="sm-rv">
+                           <li class="sub-item"><a href="user.html" class="sub-link"><span class="second-span-2"><i class="fas fa-user-edit"></i></span> профиль</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span-2 sp2"><i class="fas fa-list"></i></span> список</a></li>
+                           <li class="sub-item"><a href="" class="sub-link"><span class="second-span-2"><i class="fas fa-user-cog"></i></span> настройки</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main class="main">
+         <div class="content">
+            <div class="content__container">
+               <div class="content__topline">
+                  <a href="" class="content__block">
+                     <span>Обновления</span><i class="fas fa-angle-double-right"></i>
+                     <div class="circle"></div>
+                  </a>
+               </div>
+               <div class="content__update">
+                  <div class="update__left">
+                     <div class="update__body">
+                        <!-- <div class="update__label">#интересное</div> -->
+                        <div class="content__topline">
+                           <nav>
+                              <ul class="filter">
+                                 <li data-f="all" class="filter__item update__label pink">#все</li>
+                                 <li data-f="anime" class="filter__item update__label">#аниме</li>
+                                 <li data-f="manga" class="filter__item update__label">#манга</li>
+                              </ul>
+                           </nav>
+                        </div>
+                        <div class="update__col">
+                           <div class="update__item anime" data-aos="fade-up">
+                              <div class="item-left">
+                                 <div class="item-pic">
+                                    <a href="title.html" class="item-pic-img">
+                                       <img width="150" height="225" src="img/1.jpg" alt="">
+                                    </a>
+                                    <div class="rate-flag">
+                                       <div class="flag-inner">
+                                          <i class="fa fa-star icon"></i>
+                                          <div class="flag-text">9,5</div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="item-right">
+                                 <div class="item__content">
+                                    <div class="first-label"><a href="title.html">Кликабельный заголовок на русском</a></div>
+                                    <div class="second-label">Название на языке оригинала</div>
+                                    <ul class="tag__list">
+                                       <li class="tag">Type</li>
+                                       <li class="tag">2022</li>
+                                       <li class="tag">Tag 3</li>
+                                       <li class="tag">Tag 4</li>
+                                       <li class="tag">Tag 5</li>
+                                    </ul>
+                                    <div class="item__desk">
+                                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet animi molestias autem accusantium. Reprehenderit officiis vel ratione possimus quia impedit facere sit ad at sed esse porro temporibus sapiente ducimus vero cupiditate iste obcaecati ipsa eius, eligendi laborum ex! Nostrum culpa sint consequatur fugit aut voluptas eligendi, velit molestias voluptate.
+                                    </div>
+                                 </div>
+                                 <div class="item__info">
+                                    <div class="info__comm"><a href="">Отзыв</a></div>
+                                    <div class="info__date">07.05.2022</div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="update__item anime" data-aos="fade-up">
+                              <div class="item-left">
+                                 <div class="item-pic">
+                                    <div class="item-pic-img">
+                                       <img width="150" height="225" src="img/1.jpg" alt="">
+                                       <div class="rate-flag">
+                                          <div class="flag-inner">
+                                             <i class="fa fa-star icon"></i>
+                                             <div class="flag-text">9,5</div>
+                                          </div>
+                                       </div>
+                                   </div>
+                                 </div>
+                              </div>
+                              <div class="item-right">
+                                 <div class="item__content">
+                                    <div class="first-label"><a href="">Кликабельный заголовок на русском</a></div>
+                                    <div class="second-label">Название на языке оригинала</div>
+                                    <ul class="tag__list">
+                                       <li class="tag">Type</li>
+                                       <li class="tag">2022</li>
+                                       <li class="tag">Tag 3</li>
+                                       <li class="tag">Tag 4</li>
+                                       <li class="tag">Tag 5</li>
+                                    </ul>
+                                    <div class="item__desk">
+                                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet animi molestias autem accusantium. Reprehenderit officiis vel ratione possimus quia impedit facere sit ad at sed esse porro temporibus sapiente ducimus vero cupiditate iste obcaecati ipsa eius, eligendi laborum ex! Nostrum culpa sint consequatur fugit aut voluptas eligendi, velit molestias voluptate.
+                                    </div>
+                                 </div>
+                                 <div class="item__info">
+                                    <div class="info__comm"><a href="">Отзыв</a></div>
+                                    <div class="info__date">07.05.2022</div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="update__item manga" data-aos="fade-up">
+                              <div class="item-left">
+                                 <div class="item-pic">
+                                    <div class="item-pic-img">
+                                       <img width="150" height="225" src="img/1.jpg" alt="">
+                                       <div class="rate-flag">
+                                          <div class="flag-inner">
+                                             <i class="fa fa-star icon"></i>
+                                             <div class="flag-text">9,5</div>
+                                          </div>
+                                       </div>
+                                   </div>
+                                 </div>
+                              </div>
+                              <div class="item-right">
+                                 <div class="item__content">
+                                    <div class="first-label"><a href="">Manga Кликабельный заголовок на русском</a></div>
+                                    <div class="second-label">Название на языке оригинала</div>
+                                    <ul class="tag__list">
+                                       <li class="tag">Type</li>
+                                       <li class="tag">2022</li>
+                                       <li class="tag">Tag 3</li>
+                                       <li class="tag">Tag 4</li>
+                                       <li class="tag">Tag 5</li>
+                                    </ul>
+                                    <div class="item__desk">
+                                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet animi molestias autem accusantium. Reprehenderit officiis vel ratione possimus quia impedit facere sit ad at sed esse porro temporibus sapiente ducimus vero cupiditate iste obcaecati ipsa eius, eligendi laborum ex! Nostrum culpa sint consequatur fugit aut voluptas eligendi, velit molestias voluptate.
+                                    </div>
+                                 </div>
+                                 <div class="item__info">
+                                    <div class="info__comm"><a href="">Отзыв</a></div>
+                                    <div class="info__date">07.05.2022</div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="update__item anime" data-aos="fade-up">
+                              <div class="item-left">
+                                 <div class="item-pic">
+                                    <div class="item-pic-img">
+                                       <img width="150" height="225" src="img/1.jpg" alt="">
+                                       <div class="rate-flag">
+                                          <div class="flag-inner">
+                                             <i class="fa fa-star icon"></i>
+                                             <div class="flag-text">9,5</div>
+                                          </div>
+                                       </div>
+                                   </div>
+                                 </div>
+                              </div>
+                              <div class="item-right">
+                                 <div class="item__content">
+                                    <div class="first-label"><a href="">Кликабельный заголовок на русском</a></div>
+                                    <div class="second-label">Название на языке оригинала</div>
+                                    <ul class="tag__list">
+                                       <li class="tag">Type</li>
+                                       <li class="tag">2022</li>
+                                       <li class="tag">Tag 3</li>
+                                       <li class="tag">Tag 4</li>
+                                       <li class="tag">Tag 5</li>
+                                    </ul>
+                                    <div class="item__desk">
+                                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet animi molestias autem accusantium. Reprehenderit officiis vel ratione possimus quia impedit facere sit ad at sed esse porro temporibus sapiente ducimus vero cupiditate iste obcaecati ipsa eius, eligendi laborum ex! Nostrum culpa sint consequatur fugit aut voluptas eligendi, velit molestias voluptate.
+                                    </div>
+                                 </div>
+                                 <div class="item__info">
+                                    <div class="info__comm"><a href="">Отзыв</a></div>
+                                    <div class="info__date">07.05.2022</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="update__right">
+                     <div class="update__label">#новое</div>
+                     <div class="new-col">
+                        <div class="new-item" data-aos="fade-up">
+                           <div class="new-type">Аниме</div>
+                           <div class="new-label"><a href="title.html">Кликабельный заголовок на русском</a></div>
+                           <div class="new-date">07.05.22</div>
+                        </div>
+                        <div class="new-item" data-aos="fade-up">
+                           <div class="new-type">Манга</div>
+                           <div class="new-label"><a href="">Длинный кликабельный заголовок на русском который не влез на 1 строчку</a></div>
+                           <div class="new-date">07.05.22</div>
+                        </div>
+                        <div class="new-item" data-aos="fade-up">
+                           <div class="new-type">type</div>
+                           <div class="new-label"><a href="">Lorem ipsum dolor sit amet.</a></div>
+                           <div class="new-date">07.05.22</div>
+                        </div>
+                        <div class="new-item" data-aos="fade-up">
+                           <div class="new-type">type</div>
+                           <div class="new-label"><a href="">Lorem ipsum dolor sit amet.</a></div>
+                           <div class="new-date">07.05.22</div>
+                        </div>
+                        <div class="new-item" data-aos="fade-up">
+                           <div class="new-type">type</div>
+                           <div class="new-label"><a href="">Lorem ipsum dolor sit amet.</a></div>
+                           <div class="new-date">07.05.22</div>
+                        </div>
+                        <div class="new-item" data-aos="fade-up">
+                           <div class="new-type">type</div>
+                           <div class="new-label"><a href="">Lorem ipsum dolor sit amet.</a></div>
+                           <div class="new-date">07.05.22</div>
+                        </div>
+                        <div class="new-item" data-aos="fade-up">
+                           <div class="new-type">type</div>
+                           <div class="new-label"><a href="">Lorem ipsum dolor sit amet.</a></div>
+                           <div class="new-date">07.05.22</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="all-btn">
+                  <button href="" class="btn">Весь список</button>
+               </div>
+            </div>
+         </div>
+         <a href="#" class="arrowUp">
+		      <i class="fas fa-arrow-up"></i>
+	      </a>
+      </main>
+      <footer class="footer">
+         <div class="footer__container">
+             <div class="f-up">
+                 <div class="social">
+                     <a>Социальные сети:</a>
+                     <div class="soc_pics">
+                         <div class="sp_vk tooltip">
+                             <a target="_blank" href="https://vk.com/dargorn">
+                                 <i class="fa fa-vk"></i>
+                                 <span>Вконтакте</span>
+                             </a>
+                         </div>
+                         <div class="sp_vk tooltip">
+                             <a target="_blank" href="https://t.me/Mil1shka">
+                                 <i class="fa fa-telegram"></i>
+                                 <span>Телеграм</span>
+                             </a>
+                         </div>
+                         <div class="sp_vk tooltip">
+                             <a target="_blank" href="https://discordapp.com/users/659844555272749063/">
+                                 <i class="fab fa-discord"></i>
+                                 <span>Дискорд</span>
+                             </a>
+                         </div>
+                         <div class="sp_vk tooltip">
+                             <a target="_blank" href="https://www.youtube.com/channel/UC-oicmaEPMXygx8GCIb5gfA">
+                                 <i class="fa fa-youtube"></i>
+                                 <span>YouTube</span>
+                             </a>
+                         </div>
+                         <div class="sp_vk tooltip">
+                             <a target="_blank" href="">
+                                 <i class="fa fa-envelope"></i>
+                                 <span>Почта</span>
+                             </a>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="f-down">© 2022 <span class="f-down-txt">|</span> Designed by <span class="f-down-txt2">Dargorn</span></div>
+         </div>
+     </footer>
+   </div>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="js/aos.js"></script>
+   <script src="js/dropdown.js"></script>
+   <script src="js/filter.js"></script>
+</body>
+</html>

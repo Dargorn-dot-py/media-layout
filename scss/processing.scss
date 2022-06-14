@@ -1,0 +1,27 @@
+// 1) create .scss file in _name.scss format
+// 2) @import "_name";
+// @import "_";
+
+// settings
+@import "./settings/_null";
+@import "./settings/_palette";
+@import "./settings/_fonts";
+// main part
+@import "./main/_header";
+@import "./main/_main";
+@import "./main/_post";
+@import "./main/_footer";
+// pages
+@import "./pages/_login";
+@import "./pages/_user";
+@import "./pages/_title";
+@import "./pages/_line";
+// features
+@import "./features/_LandL";
+@import "./features/_filter";
+@import "./features/_flag";
+@import "./features/_text-select";
+//display
+@import "./settings/_display";
+//adaptive - mobile
+@import "./mobile/_global";

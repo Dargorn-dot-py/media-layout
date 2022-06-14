@@ -1,0 +1,138 @@
+.update__left {
+   flex: 1 1 70%;
+}
+.update__right {
+   flex: 1 1 30%;
+}
+.update__label {
+   /* padding: 8px 25px 25px 42px; */
+   color: $black;
+   letter-spacing: 0.15rem;
+   font-size: 28px;
+   font-weight: 600;
+   text-decoration: underline;
+   cursor: default;
+}
+.update__col {
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+}
+.update__item {
+   background-color: $white;
+   display: flex;
+   border-radius: 12px;
+   box-shadow: 0 10px 10px $shadow-1;
+   /* flex-wrap: wrap; */
+}
+.item__content {
+   min-height: 210px;
+}
+.item-left,
+.item-right {
+   padding: 15px;
+}
+.item-pic {
+   position: relative;
+   width: 150px;
+   height: 225px;
+   background-color: #eee;
+}
+.first-label a {
+   font-size: 20px;
+   letter-spacing: 1px;
+   font-weight: 600;
+   color: $pink;
+}
+.first-label a:hover {
+   text-decoration: underline;
+}
+.second-label {
+   cursor: default;
+   font-size: 16px;
+   padding: 10px 0px;
+}
+.tag__list {
+   padding: 5px 0;
+   display: flex;
+}
+.tag {
+   margin: 0 20px 0 0;
+   font-size: 16px;
+   text-decoration: underline;
+   transition: 0.3s;
+   cursor: pointer;
+}
+.tag:first-child {
+   color: $black;
+}
+.tag:hover {
+   text-decoration: none;
+   color: $pink;
+}
+.item__desk {
+   cursor: default;
+   font-size: 16px;
+   letter-spacing: 0.5px;
+   line-height: 1.5;
+   padding: 10px 15px 0 0;
+}
+.item-right {
+   display: flex;
+   flex-direction: column;
+}
+.item__info {
+   display: flex;
+   justify-content: flex-end;
+   gap: 40px;
+   font-size: 18px;
+}
+.info__comm a {
+   transition: 0.3s;
+   color: $black;
+}
+.info__comm a:hover {
+   text-decoration: underline;
+   color: $pink;
+}
+.info__date {
+   cursor: default;
+}
+
+/* -------------- */
+
+.new-col {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   padding: 0 25px 25px 25px;
+}
+.new-item {
+   padding: 15px;
+   background-color: $white;
+   border-radius: 12px;
+   box-shadow: 0 10px 10px $shadow-1;
+}
+.new-type {
+   text-transform: uppercase;
+   color: $pink;
+   cursor: default;
+}
+.new-label {
+   padding: 10px 0;
+}
+.new-label a {
+   color: $black;
+   font-size: 16px;
+   letter-spacing: 0.5px;
+   transition: 0.3s;
+}
+.new-label a:hover {
+   color: $pink;
+}
+.new-date {
+   display: flex;
+   justify-content: flex-end;
+   cursor: default;
+}
+

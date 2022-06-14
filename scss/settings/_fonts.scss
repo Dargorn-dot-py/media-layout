@@ -1,0 +1,20 @@
+@font-face {
+   font-family: 'Rubik';
+   src: local('Rubik Light'), local('Rubik-Light'), url('Rubiklight.woff2') format('woff2'), url('Rubiklight.woff') format('woff'), url('Rubiklight.ttf') format('truetype');
+   font-weight: 300;
+   font-style: normal;
+}
+body {
+   font-family: 'Rubik', sans-serif;
+}
+textarea {
+   min-height: 100px;
+   max-width: 500px;
+   resize: vertical;
+}
+input:focus, textarea:focus, button:focus {
+   border-color: $pink-h;
+}
+button:focus {
+   background-color: $pink-h;
+}
